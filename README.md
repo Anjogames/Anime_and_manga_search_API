@@ -1,0 +1,1 @@
+# Aplica-o-da-API-jikan-em-js

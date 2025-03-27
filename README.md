@@ -11,19 +11,16 @@ Este repositorio compreende um sistema de consultas sobre titulos incluidos no M
 
 # Instalação
 
-  1. Clone este repositório:
+  1. Criar repositorio e acessa-lo:
       ```
       git clone https://github.com/seuusuario/seurepositorio.git
-      ```
-
-  2. Acesse a pasta do projeto:
-      ```
       cd seurepositorio
       ```
 
-  3. Instale as dependências:
+  2. Instale as dependências:
       ```
-      npm install
+      npm init -y
+      npm install axios
       ```
 
 ## Uso

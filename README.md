@@ -79,7 +79,7 @@ Este script gerencia a busca e exibição de mangás.
 
 
 ## API
-[![Jinkan](https://img.shields.io/badge/Jinkan-121414?style=for-the-badge&labelColor=DBE6FF&color=121414)](https://meuprojeto.org)
+[![Jinkan](https://img.shields.io/badge/Jinkan-121414?style=for-the-badge&labelColor=DBE6FF&color=121414)(https://jikan.moe)]
 
 
 

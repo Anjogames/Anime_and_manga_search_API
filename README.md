@@ -19,8 +19,7 @@ Este repositorio compreende um sistema de consultas sobre titulos incluidos no M
 
   2. Instale as dependências:
       ```
-      npm init -y
-      npm install axios
+      npm install
       ```
 
 ## Uso

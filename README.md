@@ -13,8 +13,8 @@ Este repositorio compreende um sistema de consultas sobre titulos incluidos no M
 
   1. Criar repositorio e acessa-lo:
       ```
-      git clone https://github.com/seuusuario/seurepositorio.git
-      cd seurepositorio
+      git clone https://github.com/Anjogames/Anime_and_manga_search_API
+      cd Anime_and_manga_search_API
       ```
 
   2. Instale as dependências:

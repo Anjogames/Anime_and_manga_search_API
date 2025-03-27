@@ -10,7 +10,6 @@ Este repositorio compreende um sistema de consultas sobre titulos incluidos no M
 - [Instalação](#instalação)
 - [API](#API)
 - [Funcionalidades](#Funcionalidades)
-- [Tecnologias](#tecnologias)
 - [Ferramentas](#licença)
 - [Contribuição](#contribuição)
 
@@ -55,13 +54,8 @@ npm start
 
 Este projeto utiliza a API Jikan, um wrapper não oficial para o MyAnimeList, permitindo buscar informações detalhadas sobre animes e mangás.
 
-Como funciona
+Para mais detalhes sobre os endpoints disponíveis, consulte a documentação oficial da jinkan API.
 
-A API é utilizada nos arquivos anime.js e manga.js para obter dados sobre animes e mangás. As funções buscarAnime() e buscarManga() fazem requisições à API com base no termo digitado pelo usuário e retornam uma lista de resultados, que são exibidos na interface.
-
-Documentação
-
-Para mais detalhes sobre os endpoints disponíveis, consulte a documentação oficial da Jikan API.
 
 # Fucionalidades
 
@@ -79,14 +73,13 @@ Este script gerencia a busca e exibição de mangás.
 - buscarSugestoes(): Obtém sugestões de mangás enquanto o usuário digita.
 - buscarManga(): Realiza uma pesquisa na API Jikan e exibe os 10 primeiros resultados, incluindo título, ano de publicação, imagem, sinopse e link para mais detalhes.
 
-# Tecnologias
-Este projeto foi desenvolvido com as seguintes tecnologias:
-
-- [Tecnologia 1](link)
-- [Tecnologia 2](link)
-- [Tecnologia 3](link)
+# Ferramentas
 
 
+
+
+## API
+[![Jinkan](https://img.shields.io/badge/Jinkan-121414?style=for-the-badge&labelColor=DBE6FF&color=121414)](https://meuprojeto.org)
 
 
 

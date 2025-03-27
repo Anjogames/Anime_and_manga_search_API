@@ -1,4 +1,4 @@
-# Aplicção de API em consulta no MyAnimeList
+# Aplicação de API em consulta no MyAnimeList
 
 Este repositorio compreende um sistema de consultas sobre titulos incluidos no MyAnimeList, sendo estes divididos por animes e mangas, com a pesquisa sendo realizada por seus nomes. O sistema é formado por uma interface em HTML, CSS e JavaScript, que interage com uma API no backend desenvolvida com Axios.
 

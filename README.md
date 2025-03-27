@@ -31,9 +31,10 @@ Este repositorio compreende um sistema de consultas sobre titulos incluidos no M
 Para visualizar o projeto, basta abrir os arquivos anime.html ou manga.html em um navegador.
 
 Caso haja um servidor configurado, execute:
-      ```
-      npm start
-      ```
+
+  ```
+  npm start
+  ```
       
 # Estrutura do Projeto
 

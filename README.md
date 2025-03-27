@@ -1,40 +1,40 @@
-# 
-
-
-
 # Aplicção de API em consulta no MyAnimeList
 
-Este repositorio compreende um sistema de consultas sobre titulos incluidos no MyAnimeList, sendo estes divididos por animes e mangas, com a pesquisa sendo realizada por seus nomes. O sistema é formado por uma interface em HTML, CSS e JavaScript, que interage com uma API no backend desenvolvida com Express e Axios.
+Este repositorio compreende um sistema de consultas sobre titulos incluidos no MyAnimeList, sendo estes divididos por animes e mangas, com a pesquisa sendo realizada por seus nomes. O sistema é formado por uma interface em HTML, CSS e JavaScript, que interage com uma API no backend desenvolvida com Axios.
 
-- [Sobre](#sobre)
+
 - [Instalação](#instalação)
-- [API](#API)
-- [Funcionalidades](#Funcionalidades)
-- [Ferramentas](#licença)
-- [Contribuição](#contribuição)
+- [Estrutura do projeto](#estrutura-do-projeto)
+- [API](#api)
+- [Funcionalidades](#funcionalidades)
+- [Ferramentas](#ferramentas)
 
 # Instalação
 
-Clone este repositório:
+  1. Clone este repositório:
+      ```
+      git clone https://github.com/seuusuario/seurepositorio.git
+      ```
 
-git clone https://github.com/seuusuario/suapasta.git
+  2. Acesse a pasta do projeto:
+      ```
+      cd seurepositorio
+      ```
 
-Acesse a pasta do projeto:
+  3. Instale as dependências:
+      ```
+      npm install
+      ```
 
-cd suapasta
-
-Instale as dependências:
-
-npm install
-
-Uso
+## Uso
 
 Para visualizar o projeto, basta abrir os arquivos anime.html ou manga.html em um navegador.
 
 Caso haja um servidor configurado, execute:
-
-npm start
-
+      ```
+      npm start
+      ```
+      
 # Estrutura do Projeto
 
   ```bash
@@ -57,7 +57,7 @@ Este projeto utiliza a API Jikan, um wrapper não oficial para o MyAnimeList, pe
 Para mais detalhes sobre os endpoints disponíveis, consulte a documentação oficial da jinkan API.
 
 
-# Fucionalidades
+# Funcionalidades
 
 ## anime.js
 
@@ -75,8 +75,18 @@ Este script gerencia a busca e exibição de mangás.
 
 # Ferramentas
 
+## Frontend:
 
+[![HTML](https://img.shields.io/badge/HTML-FF5733?style=for-the-badge&logo=html5&logoColor=ffffff)](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element)
 
+[![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=ffffff)]((https://www.w3schools.com/css/default.asp))
+
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+## Backend:
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=ffffff)](https://nodejs.org/pt)
+
+[![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=ffffff)](https://axios-http.com/ptbr/docs/intro)
 
 ## API
 [![Jinkan](https://img.shields.io/badge/Jinkan-121414?style=for-the-badge&labelColor=DBE6FF&color=121414)](https://jikan.moe)

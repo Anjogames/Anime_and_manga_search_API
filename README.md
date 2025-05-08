@@ -41,9 +41,9 @@ Caso haja um servidor configurado, execute:
   ├── frontend/
   │   ├── src/
   │   │   ├── pages/
-  │   │   │   ├── Game.jsx
-  |   |   |   ├── Home.jsx
-  |   |   |   └── Pesquisa.jsx
+  │   │   │   ├── AnimeSearch.jsx
+  |   |   |   ├── MangaSearch.jsx
+  |   |   |   └── QuizGame.jsx
   │   │   └── App.css
   │   │   ├── App.jsx
   │   │   ├── index.css

@@ -36,14 +36,19 @@ Caso haja um servidor configurado, execute:
 
   ```bash
   seurepositorio/
-  ├── anime.html        # Página sobre animes
-  ├── manga.html        # Página sobre mangás
-  ├── anime.js          # Script JS para anime.html
-  ├── manga.js          # Script JS para manga.html
-  ├── style.css         # Estilos da página
-  ├── package.json      # Configuração do projeto Node.js
-  ├── package-lock.json # Controle de versões de pacotes
-  └── node_modules/     # Dependências instaladas
+  ├── backend/
+  |   ├── server.js
+  ├── frontend/
+  │   ├── src/
+  │   │   ├── pages/
+  │   │   │   ├── Game.jsx
+  |   |   |   ├── Home.jsx
+  |   |   |   └── Pesquisa.jsx
+  │   │   └── App.css
+  │   │   ├── App.jsx
+  │   │   ├── index.css
+  │   │   ├── main.jsx
+  │   │   ├── style.css
   ```
 
 

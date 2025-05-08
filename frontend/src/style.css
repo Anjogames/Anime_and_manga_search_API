@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.menu {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.fundo_menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(107, 107, 107);
+}
+
+.menu_item {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu_item li {
+    margin: 0 15px;
+    padding: 10px;
+}
+
+.menu_item a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.estrutura {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.estrutura input.pesquisa {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.estrutura button.pesquisa {
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.estrutura button.pesquisa:hover {
+    background-color: #0056b3;
+}
+
+.estrutura button.game{
+    display: flex;
+
+}
+
+#resultados {
+    margin-top: 20px;
+    width: 90%;
+    background-color: rgb(214, 214, 214);
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.anime-item, .manga-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+}
+
+.anime-item img, .manga-item img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.anime-item h3, .manga-item h3 {
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    background-color: #0000009f;
+    top: 10px;
+    left: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.anime-item p, .manga-item p {
+    font-size: 14px;
+    color: #666666;
+    text-align: justify;
+}
+
+.anime-item a, .manga-item a {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.anime-item a:hover, .manga-item a:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .anime-item, .manga-item {
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+    }
+
+    .anime-item img, .manga-item img {
+        margin-right: 0;
+        margin-bottom: 10px; 
+    }
+
+    .anime-item h3, .manga-item h3 {
+        position: static;
+        background-color: transparent;
+        color: #333333;
+    }
+
+    .anime-item a, .manga-item a {
+        position: static;
+        margin-top: 10px;
+    }
+}
+
+/* --------------------------------------------------- */
+
+.estrutura .comparacao-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.estrutura .title{
+    margin-top: -5vw;
+}
+
+.quiz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.opcoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw; 
+    margin-top: 20px;
+  }
+  
+  .opcoes button {
+    padding: 10px;
+    margin: 1vw;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    background-color: #f0f0f0;
+    transition: 0.3s;
+  }
+  
+  .opcoes button:hover {
+    background-color: #ddd;
+  }
+  
+  .opcoes button.correta {
+    background-color: #a0e7a0;
+    border-color: #00aa00;
+  }
+  
+  .opcoes button.errada {
+    background-color: #f8a5a5;
+    border-color: #aa0000;
+  }
+  
+  .game button {
+    margin: 1vw; 
+    border: 1px solid rgba(0, 0, 0, 0.849);
+    border-radius: 0.5em;
+  }
+
+  .quiz-unico-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .quiz-unico-container img{
+    width: 230px;
+    height: 300px;
+    border-radius: 0.5em;
+  }
+
+  .quiz-unico-container .titulo-button {
+    margin-top: 15px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    color: #333;
+    cursor: pointer; 
+    transition: background-color 0.3s;
+  }
+
+  .titulo-button2 {
+    margin-top: 3vw;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer; 
+    transition: background-color 0.3s;
+  }
+  
+  .quiz-unico-container .titulo-button:hover {
+    background-color: #ddd;
+  }
+  
+  .botao-sinopse, .botao-score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 1vw;
+    line-height: 1.2;
+    word-wrap: break-word;
+    white-space: normal;
+    padding: 0;
+  }
+
+  .botao-sinopse {
+    width: 15vw;
+    height: 14vw;
+    background-color: #f0f8ff;
+    border: 2px solid #007bff;
+    color: #007bff;
+  }
+  
+  .botao-sinopse:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .botao-score {
+    width: 15vw;
+    height: 5vw;
+    background-color: #fff0f5;
+    border: 2px solid #dc3545;
+    color: #dc3545;
+  }
+  
+  .botao-score:hover {
+    background-color: #dc3545;
+    color: white;
+  }
